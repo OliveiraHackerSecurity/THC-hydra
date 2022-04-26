@@ -1,6 +1,10 @@
 # THC-hydra
 O THC Hydra é uma ferramenta que usa dicionário de força bruta para ataques e tentativas de várias combinações de senhas e logins contra um alvo.  Esta ferramenta de hacking também suporta um vasto conjunto de protocolos incluindo Mail (POP3, IMAP, etc.), bancos de dados, LDAP, SMB, VNC e SSH.
 
+Consulte e instale o hydra através do site: http://sectools.org/tool/hydra/
+Ou se estiver usando Linux basta instalar usando o comando sudo apt-get install hydra no terminal.
+
+
 1. Comandos do Hydra
 
 hydra –L /tmp/wordlist.txt -P /tmp/wordlist.txt 192.168.0.101 ftp
@@ -36,4 +40,4 @@ smtp.mail.yahoo.com
 
 O hydra pode ser utilizado no terminal e de modo gráfico quanto no Linux utilizando o comando “sudo apt-get install hydra” quanto em outros sistemas operacionais.
 
-Consulte e instale o hydra através do site: http://sectools.org/tool/hydra/
+
